@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    cursor: default;
+    font-family: "Gloria Hallelujah", cursive;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    color: #f7f7f7;
+  }
+  
+  footer p:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+  }
+
+  .icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  #linkedin, #github, #discord, #codepen, #mail {
+      color: #f7f7f7;
+      padding: 0 10px;
+  }
+
+  #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
+      transform: scale(1.1);
+  }
