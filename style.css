@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
     background-color: #1c1c1c;
@@ -8,25 +8,26 @@ body {
 
 h1 {
     color: darkgreen;
-    font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive;
     font-size: 60px;
     letter-spacing: 10px;
+    cursor: default;
 }
 
 footer p {
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     cursor: default;
     font-family: "Gloria Hallelujah", cursive;
     letter-spacing: 3px;
     margin-bottom: 5px;
-    color: #f7f7f7;
+    color: darkgreen;
   }
   
   footer p:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
-    text-decoration: underline;
+    color: #f7f7f7;
   }
 
   .icons {
@@ -35,10 +36,11 @@ footer p {
   }
 
   #linkedin, #github, #discord, #codepen, #mail {
-      color: #f7f7f7;
+      color: darkgreen;
       padding: 0 10px;
   }
 
   #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
       transform: scale(1.1);
+      color: #f7f7f7;
   }
